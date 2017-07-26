@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="dist/js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.min.js"></script> 
+  <title>Library</title>
+</head>
+<body>
+<div class="bg-div">
+  <ul class="nav nav-pills">
+    <li class="active"><a href="#">首页</a></li>
+    <li><a href="#">书目</a></li>
+  </ul>
+  <div class="search-container">
+    <div class="container">
+
+      <div class="col-md-12 row-top"></div>
+      <div class="row">
+        <div class="col-md-10 col-xs-10 col-md-offset-2 col-xs-offset-1">
+          <div class="search-heading">
+            <h1>图书搜索</h1>
+            <h1>Book Searching</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-xs-10 col-md-offset-2 col-xs-offset-1">
+            <form class="form-inline" action="#" method="post">
+              <div class="banner">
+                <ul class="nav nav-tabs">
+                  <li><a href="#">书名</a></li>
+                  <li><a href="#">作者</a></li>
+                  <li><a href="#">ISBN</a></li>
+                </ul>
+              </div>
+              <div class="input-group input-search" >      
+                <input class="form-control search-input" type="text" placeholder="输入搜索内容" />
+                <span class="input-group-addon search-flag"><span class="glyphicon glyphicon-search" id="search-flag"></span></span>
+              </div>  
+            </form>
+          
+        </div>
+      </div>
+     
+    </div>
+  </div> 
+</div>
+  
+ <!--  <form class="form-inline">
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" placeholder="这是一个输入框" name="">
+    </div>
+    <div class="form-group">
+      <select class="form-control">
+        <option>北京</option>
+        <option>北京</option>
+        <option>北京</option>
+        <option>北京</option>
+      </select>    
+    </div>
+    <div class="form-group">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          这是按钮
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+         <li class="dropdown-header"><a href="#">慕课网</a></li>
+          <li tabindex="-1"><a href="#">慕课网</a></li>
+          <li><a href="#">慕课网</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-header"><a href="#">慕课网</a></li>
+          <li><a href="#">慕课网</a></li>
+        </ul>
+      </div>
+    </div>
+    
+  </form>
+  <nav>
+    <ul class="pagination">
+      <li class="active"><a href="http://www.imooc.com">1</a></li>
+      <li><a href="http://www.imooc.com">2</a></li>
+      <li><a href="http://www.imooc.com">3</a></li>
+      <li><a href="http://www.imooc.com">4</a></li>
+      <li><a href="http://www.imooc.com">5</a></li>
+    </ul>
+  </nav>
+  <div class="progress">
+    <div class="progress-bar  progress-bar-striped" style="width:60%" >
+      60%
+    </div>
+  </div>
+  <ul class="list-group">
+    <li class="list-group-item active">
+      这是一个列表
+      <span class="badge">14</span>
+    </li>
+    <li class="list-group-item disabled">
+      这是一个列表
+      <span class="badge">14</span>
+    </li>
+    <li class="list-group-item list-group-item-warning">
+      这是一个列表
+      <span class="badge">14</span>
+    </li>
+  </ul>
+ 
+    <button class="btn btn-danger btn-lg modal-toggle" data-toggle="modal" data-target="#danger">
+      这是测试按钮
+    </button>
+
+    <div id="danger">
+      这是一个内容
+    </div>
+    <div class="btn-wrap">
+      <div class=" btn-group btn-group-justified">
+      <a class="btn btn-default" type="button">首页</a>
+      <a class="btn btn-default">产品</a>
+      <a class="btn btn-default">案例</a>
+      <div class="btn-group">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          关于
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="">简介</a></li>
+          <li>文化</li>
+          <li>结构</li>
+        </ul>
+        </div>
+        <div class="btn-group">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          关于
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="">简介</a></li>
+          <li>文化</li>
+          <li>结构</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    </div>
+    
+  <div class="btn-wrap">
+    <div class="btn-group btn-group-justified">
+    <a class="btn btn-default" href="#">首页</a>
+    <a class="btn btn-default" href="#">产品展示</a>
+    <a class="btn btn-default" href="#">案例分析</a>
+    <a class="btn btn-default" href="#">联系我们</a>
+    <div class="btn-group dropup">
+        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          关于
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="">简介</a></li>
+          <li>文化</li>
+          <li>结构</li>
+        </ul>
+        </div>
+  </div>
+  <ul class="nav nav-pills nav-justified">
+    <li class="active"><a href="#">哈哈哈</a></li>
+    
+    <li><a href="#">哈哈哈</a></li>
+    <li><a href="#">哈哈哈</a></li>
+  </ul>
+  <ul class="breadcrumb">
+    <li class="active"><a href="#">哈哈哈</a></li>
+    
+    <li><a href="#">哈哈哈</a></li>
+    <li class="active">哈哈哈</li>
+  </ul>
+  <div class="navbar navbar-default" >
+   
+    <ul class="nav navbar-nav">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">哈哈</a>
+      </div>
+      <li class="active"><a href="#">哈哈哈</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          哈哈
+          <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">嘻嘻</a></li>
+          <li><a href="#">嘻嘻</a></li>
+          <li><a href="#">嘻嘻</a></li>
+        </ul> 
+      </li>
+      <li><a href="#">哈哈哈</a></li>
+      <li><a href="#">哈哈哈</a></li>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input class="form-control" placeholder="请输入搜索内容" />
+        </div>
+        <button class="btn btn-default" type="submit">搜索</button>
+      </form>
+  </div>
+</div>
+</body>
+</html> -->

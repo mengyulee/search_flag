@@ -1,0 +1,54 @@
+.bg-div{
+	background: url(bg.jpg) #333 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+.row-top{
+	height: 100px;
+}
+.search-heading h1{
+	color: #FEBA77;
+	
+}
+.search-footer label{
+	color: #FEBA77;
+}
+
+.search-input{
+	border: 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+}
+
+.search-flag{
+	border: 0;
+	background-color: #FEBA77;
+}
+
+#search-flag{
+	color: #fff;
+	font-size: 37px;
+}
+
+.input-search{
+	width: 400px;
+	
+}
+.nav-tabs {
+  border-bottom: 0;
+}
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #FEBA77;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+  background-color: #FEBA77;
+}
